@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    <title>Домашняя страница на django</title>
+<title>Домашняя страница на django</title>
 {% endblock %}
 
-{% include 'components/navbar.html' %}
 {% block content %}
-    <h1>Это тестовая домашняя страница</h1>
+<div class="container py-5">
+    <h1 class="display-4 text-center mb-4">Это тестовая домашняя страница</h1>
+</div>
 {% endblock %}
